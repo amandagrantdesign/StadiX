@@ -1,10 +1,20 @@
 /* Body */
 body {
+    margin: 0px;
     background-color: #262626;
 }
 /* End body */
 
+
 /* Typography */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    margin: 0px;
+    color: #f5f5f5;
+}
+
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -29,6 +39,44 @@ p {
     color: #f5f5f5;
 }
 /* End Typography */
+
+
+/* Header */
+#logo {
+    width: 512px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+    height: 80vh;
+    background: url(images/pexels-pixabay-71103.jpg);
+    background-size: cover;
+}
+header .content {
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    gap: 32px;
+    padding: 128px 128px;
+}
+header button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #f5f5f5;
+    padding: 16px 32px;
+    background-color: #ef3e3e;
+    border-radius: 32px;
+    border-style: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header button:hover {
+    filter: brightness(164%);
+}
+/* End header */
 
 
 /* Sections */
@@ -83,3 +131,5 @@ section {
     font-weight: 700;
 }
 /* End sections */
+
+
